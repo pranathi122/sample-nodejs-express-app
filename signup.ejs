@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+        body {
+  
+            background-image: url(https://tse2.mm.bing.net/th?id=OIP.dQUB7ibOhxYwniGQEHiXAgHaCk&pid=Api&P=0);
+            background-position: centre;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 80% 100%;
+  
+}
+
+.signup-box {
+  width: 360px;
+  height: 620px;
+  margin: auto;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.login-box {
+  width: 360px;
+  height: 280px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+input[type="button"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 18px;
+}
+
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.para a {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.para a {
+  color: #49c1a2;
+}
+
+
+    </style>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="Css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="signup-box">
+      <h1>Sign Up</h1>
+      <h4>If your new then sign up</h4>
+      <form action="/signupsubmit" method="GET">
+        <label>Name</label>
+        <input type="text" name="name" placeholder="Name" />
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Email" />
+        <label>Password</label>
+        <input type="password" name="password" placeholder="Password" />
+        <label>Re-Password</label>
+        <input type="password" name="repassword" placeholder="Re-Password" />
+        <button type="submit">signup</button>   
+            <input type="checkbox" checked="checked"> Remember me   
+            <button type="button" class="cancelbtn"> Cancel</button>   
+            Forgot <a href="#"> password? </a>
+      <closeform></closeform></form>
+      <p>
+        By clicking the Sign Up button,you agree to our <br>
+        <a href="#">Terms and Condition</a> and <a href="#">Policy Privacy</a>
+      </p>
+    </div>
+    <p class="para">
+      Already have an account? <a href="http://localhost:3000/login">Login</a>
+    </p>
+  </body>
+</html>
